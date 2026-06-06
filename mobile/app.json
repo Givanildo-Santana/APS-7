@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ArLimpo Mobile",
+    "slug": "arlimpo-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "arlimpo",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#176B5D"
+    },
+    "android": {
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET"
+      ],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.VIBRATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#176B5D"
+      },
+      "package": "com.arlimpo.mobile"
+    }
+  }
+}

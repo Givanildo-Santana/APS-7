@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@telas/*": ["src/telas/*"],
+      "@componentes/*": ["src/componentes/*"],
+      "@servicos/*": ["src/servicos/*"],
+      "@navegacao/*": ["src/navegacao/*"],
+      "@tipos/*": ["src/tipos/*"],
+      "@constantes/*": ["src/constantes/*"]
+    }
+  }
+}
